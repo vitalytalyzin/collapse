@@ -1,0 +1,18 @@
+.children {
+  height: auto;
+  overflow: hidden;
+  transition: max-height .3s ease;
+}
+
+.switch {
+  display: flex;
+  align-items: center;
+}
+
+.switch__button {
+  border-bottom: 1px dashed lightgray;
+}
+
+.switch__icon {
+  margin-left: 16px;
+}
